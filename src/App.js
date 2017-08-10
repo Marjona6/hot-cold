@@ -5,6 +5,7 @@ import PreviousGuesses from './components/previousGuesses';
 import GuessEntry from './components/guessEntry';
 import Feedback from './components/feedback';
 import WinMessage from './components/winMessage';
+import GuessCounter from './components/guessCounter';
 
 export default class App extends Component {
   constructor(props) {
@@ -29,6 +30,7 @@ export default class App extends Component {
         </p>
         <GuessEntry defaultValue={this.state.guess} onSubmit={value => this.setGuess(value)} />
         <Feedback />
+        <GuessCounter />
         <PreviousGuesses />
         <WinMessage />
       </div>
