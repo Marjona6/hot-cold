@@ -1,0 +1,9 @@
+.wrong-guess {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	border: 1px solid blue;
+	border-radius: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
